@@ -1,0 +1,66 @@
+body{
+    font-family:  'Roboto', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Container */
+.container{
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container_tasks{
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+}
+
+.container_tasks h1{
+    color: #000;
+}
+
+#task-name{
+    width: 350px;
+    height: 25px;
+    font-size: 15px;
+    border: 0.5px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+}
+
+#task-name::placeholder{
+    color: #a0a0a0;
+}
+
+/* Add new task button */
+#add-task-button, img{
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#add-task-button:hover{
+    transform: scale(1.1);
+}
+
+/* Tasks container */
+#tasks-container {
+    margin-top: 20px; /* Espaçamento superior */
+    max-height: 300px; /* Altura máxima do contêiner */
+    overflow-y: auto; /* Adicionar barra de rolagem vertical quando necessário */
+}
+
+/* Tasks added */
+.task{
+    padding: 10px;
+    margin-top: 9px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    background-color: #e9e8e8;
+}

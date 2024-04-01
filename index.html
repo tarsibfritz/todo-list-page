@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container_tasks">
+            <h1>Todo List</h1>
+            <!-- TODO LIST - TASK NAME -->
+            <form id="task-form">
+                <textarea id="task-name" name="task-name" placeholder="Add your new todo"></textarea>
+                <button id="add-task-button" type="button">
+                    <img src="./assets/add.png" alt="Add Task">
+                </button>
+            </form>
+            <!-- TASKS -->
+            <div id="tasks-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
