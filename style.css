@@ -64,3 +64,17 @@ body{
     border-radius: 2px;
     background-color: #e9e8e8;
 }
+
+/* Clear All button */
+#clear-tasks{
+    position: flex;
+    margin-left: 23em;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #f9f8f8;
+    background-color: #ec3f62;
+    cursor: pointer;
+}
